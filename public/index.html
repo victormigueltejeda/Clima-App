@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="../src/asset/images/sun.svg"
+      type="image/x-icon"
+    />
+    <title>Climate App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__titulo">CLIMAPP</h1>
+      <ul>
+        <li>
+          <a href="">
+            <img src="../asset/cuaderno-de-contactos.png" alt="" />
+            contactame
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../asset/github.png" alt="" />
+            Codigo Del Proyecto
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main class="conteiner">
+      <div id="container" class="form">
+        <input
+          placeholder="Ingresa una ciudad"
+          class="form__input"
+          type="text"
+          name="ciudad"
+          id="input"
+        />
+        <button id="button" class="form__button">Submit</button>
+      </div>
+      <div id="cart"></div>
+    </main>
+    <script type="module" src="../index.js"></script>
+  </body>
+</html>

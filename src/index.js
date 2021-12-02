@@ -1,4 +1,4 @@
-import Template from "./src/template/template.js";
+import Template from "./template/template.js";
 
 const input = document.querySelector("#input");
 input.addEventListener("keyup", (event) => {
